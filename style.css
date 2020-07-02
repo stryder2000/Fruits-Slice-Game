@@ -1,0 +1,97 @@
+body{
+            background-color: #DCDCDC;
+        }
+        #container{
+            background-color: #9DD2EA;
+            border-radius: 10px;
+            box-shadow: 0px 4px 0px #009DE4;
+            height: 650px;
+            width: 780px;
+            margin: 10px auto;
+        }
+        #lives{
+            background-color: #F1FF92;
+            box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+            padding-top: 10px;
+            margin: 20px;
+            border-radius: 3px;
+            position: absolute;
+            display: none;
+            width: 110px;
+        }
+        .heart{
+            margin: 0px 5px;
+        }
+        #score{
+            background-color: #F1FF92;
+            border-bottom: 4px solid #9DA853;
+            position:relative;
+            height: 20px;
+            padding: 10px;
+            padding-bottom: 8px;
+            margin: 18px;
+            color: #888E5F;
+            font-weight: 500;
+            float: right;
+            width: 70px;
+        }
+        #fruitContainer{
+            background: white;
+            border-bottom: 4px solid #535AA8;
+            position: relative;
+            top: 70px;
+            margin-left: 70px;
+            height: 400px;
+            width: 650px;
+            overflow: hidden;
+        }
+        .fruit{
+            position: relative;
+            display: none;
+        }
+        #label{
+            background: #B481D9;
+            border-bottom: 4px solid #8153A8;
+            line-height: 50px;
+            width: 450px;
+            position: relative;
+            top: 85px;
+            margin: -10px auto;
+            text-align: center;
+        }
+        #button{
+            background: #CEE9F5;
+            border-bottom: 4px solid #7EA8BB;
+            border-radius: 5px;
+            cursor: pointer;
+            height: 20px;
+            width: 80px;
+            position: relative;
+            top: 100px;
+            margin: 0px auto;
+            padding: 10px;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        #button:active{
+            background-color: #9c89f6;
+            color: white;
+            border-bottom: 0px solid #7EA8BB;
+            top: 104px;
+        }
+        #gameOver{
+            background-image: linear-gradient(to bottom, rgb(240,229,107), rgb(243,113,98));
+            color: white;
+            position: absolute;
+            height: 200px;
+            width: 500px;
+            font-size: 40px;
+            line-height: 70px;
+            text-align: center;
+            top: 150px;
+            left: 180px;
+            z-index: 1;
+            display: none;
+        }
