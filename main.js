@@ -3,7 +3,7 @@ var score;
 var trialsLeft;
 var step;
 var action; //for time interval
-var fruits = ["apple", "banana", "cherries", "grapes", "mango", "orange", "peach", "pear", "watermelon"];
+var fruits = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
 $(function(){
     $("#button").click(function(){
         if(playing==true){
@@ -42,7 +42,7 @@ $(function(){
         //random position
         
         //generate a random step
-        step = 1 + Math.round(5*Math.random());
+        step = 1 + Math.round(3*Math.random());
         
         //Move fruit down by one step every 10ms
         action = setInterval(function(){
@@ -57,7 +57,7 @@ $(function(){
                     //random position
 
                     //generate a random step
-                    step = 1 + Math.round(5*Math.random());
+                    step = 1 + Math.round(3*Math.random());
                     
                     --trialsLeft;
                     addHearts();
